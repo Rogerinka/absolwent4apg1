@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'osoby.apps.OsobyConfig',
 ]
 
 MIDDLEWARE = [
@@ -123,5 +124,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 from django.http import HttpResponse
 
-def index(request):
-    return HttpResponse("Witaj w Django!")
+
+
